@@ -7,4 +7,9 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  get "cart", to: "cart#list_items"
+  # post "cart", to: "cart#add_item"
+  post "cart/add_item", to: "cart#add_item"
+  delete "cart/:product_id", to: "cart#remove_item"
 end
