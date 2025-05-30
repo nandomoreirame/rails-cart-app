@@ -61,4 +61,5 @@ Esse script irá:
 
 - O banco de dados é isolado em um container Docker, facilitando o setup e evitando conflitos locais.
 - Certifique-se de que as portas 3000 (Rails) e 5432 (Postgres) estejam livres em sua máquina.
+- Certifique também se o Docker está rodando em sua máquina antes de executar o os scripts (.sh) do projeto.
 
